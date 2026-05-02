@@ -827,6 +827,12 @@ elif page == '🤖 AI & Data Centers':
     fig.update_layout(height=450, paper_bgcolor='white')
     fig.update_yaxes(title_text='Electricity consumption (TWh)')
     st.plotly_chart(fig, use_container_width=True)
+    st.markdown("""
+<p style='color:#6b7280;font-size:0.8rem;margin:4px 0 16px 4px;'>
+    📏 <b>Note:</b> TWh = Terawatt-hours per year. 1 TWh = 1 billion kilowatt-hours — 
+    enough to power ~300,000 homes for a year.
+</p>
+""", unsafe_allow_html=True)
     st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown("<br>", unsafe_allow_html=True)
