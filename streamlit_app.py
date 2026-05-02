@@ -858,20 +858,20 @@ elif page == '🤖 AI & Data Centers':
     interp("Data center electricity consumption has nearly doubled since 2020, driven almost entirely by AI. By 2035 the IEA projects ~1200 TWh/year — equivalent to Japan's entire electricity use today. The Arctic cooling strategy transfers heat into cold environments, directly accelerating the ice melt that our sea level data shows is already at an alarming rate. Using AI responsibly starts with being aware of its true cost.")
 
     with st.expander("📌 What does this tell us?"):
-    st.markdown("""
-    <p style='color:#444;font-size:0.93rem;line-height:1.7;'>
-    Data center electricity consumption has <b>nearly doubled since 2020</b>, driven almost 
-    entirely by the AI boom. By 2035, the IEA projects data centers will consume 
-    <b>~1200 TWh/year</b> — roughly the entire electricity consumption of Japan today.
-    A TWh (Terawatt-hour) is 1 billion kilowatt-hours — enough to power ~300,000 homes 
-    for a year. Most of this electricity still comes from fossil fuels.<br><br>
-    The <b>Arctic cooling strategy</b> makes this worse: by transferring heat into cold 
-    environments, tech companies are directly accelerating ice melt — which our sea level 
-    analysis showed is already rising at an alarming rate. The very technology people use 
-    casually every day is quietly amplifying the crisis this entire dashboard has been measuring.<br><br>
-    <b>Using AI responsibly starts with being aware of its true cost.</b>
-    </p>
-    """, unsafe_allow_html=True)
+        st.markdown("""
+        <p style='color:#444;font-size:0.93rem;line-height:1.7;'>
+        Data center electricity consumption has <b>nearly doubled since 2020</b>, driven almost 
+        entirely by the AI boom. By 2035, the IEA projects data centers will consume 
+        <b>~1200 TWh/year</b> — roughly the entire electricity consumption of Japan today.
+        A TWh (Terawatt-hour) is 1 billion kilowatt-hours — enough to power ~300,000 homes 
+        for a year. Most of this electricity still comes from fossil fuels.<br><br>
+        The <b>Arctic cooling strategy</b> makes this worse: by transferring heat into cold 
+        environments, tech companies are directly accelerating ice melt — which our sea level 
+        analysis showed is already rising at an alarming rate. The very technology people use 
+        casually every day is quietly amplifying the crisis this entire dashboard has been measuring.<br><br>
+        <b>Using AI responsibly starts with being aware of its true cost.</b>
+        </p>
+        """, unsafe_allow_html=True)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
