@@ -525,6 +525,22 @@ elif page == '🔥 Emission Patterns':
         st.markdown("<br>", unsafe_allow_html=True)
 
         # Paris Agreement
+        st.markdown("""
+<div style='background:linear-gradient(135deg,#eff6ff,#fdf4ff);
+            border-radius:14px;padding:22px 28px;margin-bottom:20px;
+            border-left:4px solid #4f46e5;'>
+    <p style='font-family:Syne,sans-serif;font-weight:700;color:#1e1b4b;
+              font-size:1rem;margin:0 0 10px;'>What is the Paris Agreement?</p>
+    <p style='color:#374151;font-size:0.93rem;line-height:1.7;margin:0;'>
+        In December 2015, 196 countries signed a historic treaty committing to limit 
+        global warming to <b>well below 2°C</b>. Each country submitted a pledge — called 
+        an NDC — to cut their CO₂ emissions by a specific percentage by 2030.
+        Examples: 🇺🇸 USA pledged <b>-51% vs 2005</b> · 🇪🇺 EU pledged <b>-55% vs 1990</b> · 
+        🇹🇳 Tunisia pledged <b>-41% vs business-as-usual</b>.
+        The chart below asks the uncomfortable question: <b>are they actually on track?</b>
+    </p>
+</div>
+""", unsafe_allow_html=True)
         st.markdown("<div class='graph-card'>", unsafe_allow_html=True)
         paris_targets = {
             'United States': ('USA', 2005, 0.51),
