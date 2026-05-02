@@ -787,26 +787,6 @@ elif page == '🤖 AI & Data Centers':
     </div>
     """, unsafe_allow_html=True)
 
-    #cooling cycle 
-    st.markdown("""
-<div style='background:linear-gradient(135deg,#1e1b4b,#0c1445);
-            border-radius:14px;padding:20px 28px;margin-bottom:20px;
-            border-left:4px solid #818cf8;'>
-    <p style='color:#a5b4fc;font-weight:700;font-size:0.95rem;margin:0 0 10px;'>
-        🔄 The Cooling Cycle Problem
-    </p>
-    <p style='color:rgba(255,255,255,0.8);font-size:0.9rem;line-height:1.8;margin:0;'>
-        🖥️ Servers generate heat → 
-        ❄️ Companies place data centers in Arctic/cold seas → 
-        🌡️ Local temperatures rise → 
-        🧊 Permafrost thaws → 
-        💨 Methane released (80× more potent than CO₂) → 
-        🌊 Ice melts → Sea levels rise →
-        🔁 Climate crisis accelerates
-    </p>
-</div>
-""", unsafe_allow_html=True)
-
     
     # IEA hardcoded data
     years   = list(range(2020, 2036))
@@ -857,6 +837,26 @@ elif page == '🤖 AI & Data Centers':
 
     interp("Data center electricity consumption has nearly doubled since 2020, driven almost entirely by AI. By 2035 the IEA projects ~1200 TWh/year — equivalent to Japan's entire electricity use today. The Arctic cooling strategy transfers heat into cold environments, directly accelerating the ice melt that our sea level data shows is already at an alarming rate. Using AI responsibly starts with being aware of its true cost.")
 
+    #cooling cycle 
+    st.markdown("""
+<div style='background:linear-gradient(135deg,#1e1b4b,#0c1445);
+            border-radius:14px;padding:20px 28px;margin-bottom:20px;
+            border-left:4px solid #818cf8;'>
+    <p style='color:#a5b4fc;font-weight:700;font-size:0.95rem;margin:0 0 10px;'>
+        🔄 The Cooling Cycle Problem
+    </p>
+    <p style='color:rgba(255,255,255,0.8);font-size:0.9rem;line-height:1.8;margin:0;'>
+        🖥️ Servers generate heat → 
+        ❄️ Companies place data centers in Arctic/cold seas → 
+        🌡️ Local temperatures rise → 
+        🧊 Permafrost thaws → 
+        💨 Methane released (80× more potent than CO₂) → 
+        🌊 Ice melts → Sea levels rise →
+        🔁 Climate crisis accelerates
+    </p>
+</div>
+""", unsafe_allow_html=True)
+    
     with st.expander("📌 What does this tell us?"):
         st.markdown("""
         <p style='color:#444;font-size:0.93rem;line-height:1.7;'>
