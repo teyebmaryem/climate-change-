@@ -17,7 +17,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="auto"
 )
-st.session_state["sidebar_state"] = "expanded"
+
 
 # ── Global CSS ─────────────────────────────────────────────────────────────────
 st.markdown("""
