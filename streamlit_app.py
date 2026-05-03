@@ -15,7 +15,7 @@ st.set_page_config(
     page_title="ClimateIQ",
     page_icon="🌱",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="auto"
 )
 st.session_state["sidebar_state"] = "expanded"
 
