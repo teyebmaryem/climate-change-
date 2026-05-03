@@ -17,6 +17,12 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+st.markdown("""
+<style>
+[data-testid="collapsedControl"] { display: none !important; }
+section[data-testid="stSidebar"] { display: block !important; visibility: visible !important; transform: none !important; }
+</style>
+""", unsafe_allow_html=True)
 
 # ── Global CSS ─────────────────────────────────────────────────────────────────
 st.markdown("""
