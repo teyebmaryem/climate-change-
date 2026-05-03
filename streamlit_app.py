@@ -287,15 +287,7 @@ if page == '🏠 Home':
         with c2: stat_card(f"+{(g_last-g1980)/g1980*100:.0f}%", "Emissions growth since 1980", COLORS['amber'])
         with c3: stat_card(f"+{slope*10:.2f}°C", "Warming per decade (NASA)", COLORS['purple'])
         with c4: stat_card(f"{total_rise:.0f} mm", "Total sea level rise", COLORS['cyan'])
-        #to keep the sidebar always
-        with c4: stat_card(f"{total_rise:.0f} mm", "Total sea level rise", COLORS['cyan'])
-
-        # Add this right here ↓
-        if st.button("☰ Show Navigation Sidebar"):
-            st.info("👈 Click the **>** arrow on the top left corner of the screen to expand the sidebar!")
-
-        #end of keeping the side bar always
-
+        
         st.markdown("<br>", unsafe_allow_html=True)
         
         st.markdown("<br>", unsafe_allow_html=True)
