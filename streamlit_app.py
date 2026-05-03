@@ -115,6 +115,12 @@ h2, h3 { font-family: 'Syne', sans-serif; }
 /* Hide streamlit branding */
 #MainMenu, footer, header { visibility: hidden; }
 .block-container { padding-top: 1.5rem; }
+
+/* Always show sidebar toggle button */
+[data-testid="collapsedControl"] {
+    display: block !important;
+    visibility: visible !important;
+
 </style>
 """, unsafe_allow_html=True)
 
