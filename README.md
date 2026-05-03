@@ -38,7 +38,7 @@ Opens at `http://localhost:8501`
 ## 🌐 Live Dashboard
 
 Deployed on Streamlit Cloud:
-👉 **[your-app-url.streamlit.app]** ← replace after deployment
+👉 **https://wbg2w4sltsozmxgi6qjv49.streamlit.app/** 
 
 ---
 
