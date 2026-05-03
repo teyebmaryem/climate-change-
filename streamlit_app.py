@@ -296,7 +296,7 @@ if page == '🏠 Home':
 
         #end of keeping the side bar always
 
-st.markdown("<br>", unsafe_allow_html=True)
+        st.markdown("<br>", unsafe_allow_html=True)
         
         st.markdown("<br>", unsafe_allow_html=True)
 
