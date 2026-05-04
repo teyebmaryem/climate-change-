@@ -680,8 +680,7 @@ elif page == '⚖️ Climate Justice':
             st.plotly_chart(fig3, use_container_width=True)
             st.markdown("</div>", unsafe_allow_html=True)
             interp("High-emitting regions sit far right. Low-emitting regions like Africa sit bottom left — yet face the severest consequences. The burden of climate change is NOT proportional to its cause. This is climate injustice, visible in data.")
-            interp("On this graph, we see that regions like Africa emit very little CO₂, yet they are still affected by climate change. Meanwhile, high-emitting regions like North America contribute much more to the problem.
-            This shows that the impact of climate change is not proportional to its cause — which is what we call climate injustice.")
+            interp("On this graph, we see that regions like Africa emit very little CO₂, yet they are still affected by climate change. Meanwhile, high-emitting regions like North America contribute much more to the problem.This shows that the impact of climate change is not proportional to its cause — which is what we call climate injustice.")
 
             
 
