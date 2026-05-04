@@ -893,6 +893,14 @@ elif page == '🤖 AI & Data Centers':
         """, unsafe_allow_html=True)
 
 
+
+        #AI vds 
+        st.markdown("<br>", unsafe_allow_html=True)
+        col1, col2, col3 = st.columns(3)
+        with col1: stat_card("Data centers and water", "https://www.instagram.com/reel/DVwLmjMj07N/?igsh=dGdwZmoxYWs3MXV2", COLORS['indigo'])
+        with col2: stat_card("Glimpse of AI effects", "https://www.instagram.com/reel/DVfxzkejKsb/?igsh=MWEwM21rYnB1NXphaQ%3D%3D", COLORS['pink'])
+        with col3: stat_card("The hidden cost of AI", "https://www.instagram.com/reel/DUZF0rhARAS/?igsh=MWphOTAydXhsN2Q2YQ%3D%3D)", COLORS['rose'])
+
 # ══════════════════════════════════════════════════════════════════════════════
 # 📚 REFERENCES
 # ══════════════════════════════════════════════════════════════════════════════
