@@ -854,7 +854,7 @@ elif page == '🤖 AI & Data Centers':
     with col2: stat_card("~500 TWh", "Estimated usage in 2024 (+100%)", COLORS['pink'])
     with col3: stat_card("~1200 TWh", "Projected 2035 (+380% vs 2020)", COLORS['rose'])
 
-    interp("Data center electricity consumption has nearly doubled since 2020, driven almost entirely by AI. By 2035 the IEA projects ~1200 TWh/year — equivalent to Japan's entire electricity use today. The Arctic cooling strategy transfers heat into cold environments, directly accelerating the ice melt that our sea level data shows is already at an alarming rate. Using AI responsibly starts with being aware of its true cost.")
+    interp("Data center electricity consumption has nearly doubled since 2020, driven almost entirely by AI. By 2035 the IEA projects ~1200 TWh/year — equivalent to Japan's entire electricity use today..")
 
     #cooling cycle 
     st.markdown("""
@@ -879,11 +879,6 @@ elif page == '🤖 AI & Data Centers':
     with st.expander("📌 What does this tell us?"):
         st.markdown("""
         <p style='color:#444;font-size:0.93rem;line-height:1.7;'>
-        Data center electricity consumption has <b>nearly doubled since 2020</b>, driven almost 
-        entirely by the AI boom. By 2035, the IEA projects data centers will consume 
-        <b>~1200 TWh/year</b> — roughly the entire electricity consumption of Japan today.
-        A TWh (Terawatt-hour) is 1 billion kilowatt-hours — enough to power ~300,000 homes 
-        for a year. Most of this electricity still comes from fossil fuels.<br><br>
         The <b>Arctic cooling strategy</b> makes this worse: by transferring heat into cold 
         environments, tech companies are directly accelerating ice melt — which our sea level 
         analysis showed is already rising at an alarming rate. The very technology people use 
@@ -892,14 +887,14 @@ elif page == '🤖 AI & Data Centers':
         </p>
         """, unsafe_allow_html=True)
 
-
-
-        #AI vds 
+    #AI vds 
         st.markdown("<br>", unsafe_allow_html=True)
         col1, col2, col3 = st.columns(3)
         with col1: stat_card("Data centers and water", "https://www.instagram.com/reel/DVwLmjMj07N/?igsh=dGdwZmoxYWs3MXV2", COLORS['indigo'])
         with col2: stat_card("Glimpse of AI effects", "https://www.instagram.com/reel/DVfxzkejKsb/?igsh=MWEwM21rYnB1NXphaQ%3D%3D", COLORS['pink'])
         with col3: stat_card("The hidden cost of AI", "https://www.instagram.com/reel/DUZF0rhARAS/?igsh=MWphOTAydXhsN2Q2YQ%3D%3D)", COLORS['rose'])
+
+
 
 # ══════════════════════════════════════════════════════════════════════════════
 # 📚 REFERENCES
