@@ -399,7 +399,7 @@ elif page == '📈 Global Emissions':
         fig.update_yaxes(title_text='CO₂ (Gt)')
         st.plotly_chart(fig, use_container_width=True)
         st.markdown("</div>", unsafe_allow_html=True)
-        interp("The financial crisis began in 2008, but the CO₂ drop is visible in 2009 — showing that economic shocks take about a year to fully impact global emissions.")
+        #interp("The financial crisis began in 2008, but the CO₂ drop is visible in 2009 — showing that economic shocks take about a year to fully impact global emissions.")
         interp("Global CO₂ has risen continuously since 1980. The two visible dips — 2008 (financial crisis) and 2020 (COVID) — were both short-lived. Despite the Kyoto Protocol and Paris Agreement, the trend has never reversed. This confirms that political commitments alone, without structural economic change, are insufficient.")
         
         # CO2 by source
