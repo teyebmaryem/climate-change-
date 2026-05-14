@@ -221,10 +221,31 @@ def stat_card(value, label, color, prefix='', suffix=''):
 def graph_card(fig, height=420):
     st.plotly_chart(fig, use_container_width=True)
 
+
+#------------------expander version of interp--------------------
+#def interp(text):
+ #   with st.expander("📌 What does this tell us?"):
+  #      st.markdown(f"<p style='color:#444; font-size:0.93rem; line-height:1.6;'>{text}</p>",
+   #                 unsafe_allow_html=True)
+
+
+#new version of interp without the expander
 def interp(text):
-    with st.expander("📌 What does this tell us?"):
-        st.markdown(f"<p style='color:#444; font-size:0.93rem; line-height:1.6;'>{text}</p>",
-                    unsafe_allow_html=True)
+    st.markdown(
+        f"""
+        <div style='
+            background-color: #f0f4f8;
+            border-left: 4px solid #4a90d9;
+            border-radius: 0 8px 8px 0;
+            padding: 10px 14px;
+            margin-top: 8px;
+        '>
+            <span style='font-size:0.85rem; font-weight:600; color:#4a90d9;'>📌 What does this tell us?</span>
+            <p style='color:#444; font-size:0.93rem; line-height:1.6; margin: 4px 0 0 0;'>{text}</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 def plotly_layout(fig, title='', bg='white'):
     fig.update_layout(
